@@ -1,0 +1,73 @@
+.light
+{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.red
+{
+    animation-name: redanim;
+}
+@keyframes redanim
+{
+    0%
+    {
+      background-color: red;  
+    }
+    33%
+    {
+        background-color: black;  
+    }
+    66%
+    {
+        background-color: black;
+    }
+    100%
+    {
+        background-color: red;  
+    }
+}
+
+.yellow
+{
+    animation-name: yellowanim;
+}
+@keyframes yellowanim
+{
+    0%
+    {
+      background-color: black;  
+    }
+    33%
+    {
+        background-color: yellow;  
+    }
+    66%
+    {
+         background-color: black;  
+    }
+}
+
+.green
+{
+    animation-name: greenanim;
+}
+@keyframes greenanim
+{
+  
+    33%
+    {
+         background-color: black;   
+    }
+    66%
+    {
+         background-color: green;  
+    }
+    100%
+    {
+         background-color: black; 
+    }
+}

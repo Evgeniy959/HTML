@@ -1,0 +1,70 @@
+.btn
+{
+    color:#000000;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 18%;
+    text-decoration: none;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: -5px -5px 5px rgb(102, 81, 81);
+}
+.bluebtn
+{
+    color:#1e6cba;
+    background-color: rgb(192, 197, 230);
+    border-color: blueviolet;
+}
+.yellowbtn
+{
+    color:#f4a804;
+    background-color: rgb(238, 249, 154);
+    border-color: rgb(226, 80, 43); 
+}
+#header
+{
+    color: darkblue;
+}
+#buttonDiv
+{
+    background-color: azure;
+    padding: 2%;
+    width: 30%;
+    margin-left: 40%;
+}
+
+.light
+{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.red:hover
+{
+    background-color: red;
+}
+.yellow:hover
+{
+    background-color: yellow;
+}
+.green:hover
+{
+    background-color: green;
+}
+
+.btn:hover
+{
+    color: blue;
+    background-color: lightblue;
+    border-color: blue; 
+}
+
+body
+{
+    padding-top: 30px;
+    text-align: center;
+}

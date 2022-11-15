@@ -1,0 +1,28 @@
+.h-400
+{
+    height: 500px;
+    object-fit: cover;
+    
+}
+.w-700
+{
+    width: 100%;
+}
+.fish-text
+{
+    padding: 1%;
+    font-size:xx-large;
+}
+.form
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.form input
+{
+    margin-top: 10px;
+}
